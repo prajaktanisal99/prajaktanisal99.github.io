@@ -31,7 +31,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/prajakta-nisal"
+            href="https://drive.google.com/file/d/1j2_i6Hzx4a_xhngnPSUAQ-ryBv91wLXB/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
