@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/prajaktanisal99.github.io/static/css/main.93e0c23e.css",
-    "main.js": "/prajaktanisal99.github.io/static/js/main.50c3d416.js",
-    "index.html": "/prajaktanisal99.github.io/index.html",
-    "static/media/blob-haikei.svg": "/prajaktanisal99.github.io/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
-    "main.93e0c23e.css.map": "/prajaktanisal99.github.io/static/css/main.93e0c23e.css.map",
-    "main.50c3d416.js.map": "/prajaktanisal99.github.io/static/js/main.50c3d416.js.map"
+    "main.css": "/static/css/main.cb28ad7e.css",
+    "main.js": "/static/js/main.a22c6435.js",
+    "index.html": "/index.html",
+    "static/media/blob-haikei.svg": "/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
+    "main.cb28ad7e.css.map": "/static/css/main.cb28ad7e.css.map",
+    "main.a22c6435.js.map": "/static/js/main.a22c6435.js.map"
   },
   "entrypoints": [
-    "static/css/main.93e0c23e.css",
-    "static/js/main.50c3d416.js"
+    "static/css/main.cb28ad7e.css",
+    "static/js/main.a22c6435.js"
   ]
 }
