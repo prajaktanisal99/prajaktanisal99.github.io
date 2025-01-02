@@ -2,7 +2,7 @@
 export const ProjectList = [
   {
     img: "/dynamic_form.jpg",
-    title: "Generate Dynamic Form from JSON",
+    title: "Dynamic JSON-driven Form Generator ",
     description:
       "Developed a dynamic form generation tool enabling customizable field creation and real-time validation.",
     tech_stack: ["JavaScript", "HTML", "CSS", "Vercel"],
