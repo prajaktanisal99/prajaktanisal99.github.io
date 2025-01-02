@@ -43,6 +43,7 @@ export const ProjectList = [
     description:
       "Developed an MLP classifier to predict NBA player positions, achieving 60.23% accuracy on the training set and optimizing performance through feature selection and cross-validation.",
     tech_stack: ["Python", "Pandas", "sklearn"],
+    dates: "Aug 2023 - Oct 2023",
     github_url: "https://github.com/prajaktanisal99/nba_stats/blob/main/MLP.py",
     demo_url: "",
   },
