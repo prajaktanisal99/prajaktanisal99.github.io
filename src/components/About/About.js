@@ -20,36 +20,21 @@ function About() {
           </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Prajakta Nisal</strong>. I'm originally
-              from India, currently pursuing Master of Science, Computer Science
-              from University of Texas, Arlington with over two years of
-              experience as a Software Engineer at Deutsche Bank, India.
+              Hello, my name is <strong>Prajakta Nisal</strong>, and I am currently pursuing a Master’s in Computer Science at the University of Texas at Arlington, graduating in May 2025. With over two years of experience as a Software Engineer at Deutsche Bank, India, I have a proven track record of developing scalable, high-performance solutions that address complex challenges and drive impactful results.
             </ScrollAnimation>
 
             <br />
-            <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              My journey into the world of technology began with a strong
-              passion for problem-solving, which led me to pursue the Computer
-              Systems Technology program. Despite its challenges, I remained
-              determined and forged lasting friendships that supported me
-              throughout this demanding program. Throughout my studies at
-              Cummins College of Engineering, I had the opportunity to engage in
-              fascinating projects.
+              These days, I am exploring cutting-edge technologies in distributed computing, large-scale system design, and artificial intelligence to design innovative systems that transform user experiences and solve real-world problems. My academic projects and professional experience have strengthened my technical expertise and problem-solving mindset, enabling me to thrive in dynamic and collaborative environments.
             </ScrollAnimation>
 
             <br />
-            <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective
-              has been an incredibly rewarding and unique experience for me. I
-              am eager to continue exploring exciting projects in the future,
-              with a particular interest in web development and cross-platform
-              mobile development.
-              <div className="tagline2">
-                I have become confident using the following technologies:
+              I am actively seeking opportunities to grow as an engineer, contributing to innovative projects that challenge the status quo and drive progress. Passionate about continuous learning and teamwork, I am excited to connect with like-minded professionals and work on impactful solutions that make a meaningful difference.<div className="tagline2">
+              
+              I have gained proficiency and confidence in working with the following technologies:
               </div>
             </ScrollAnimation>
 
