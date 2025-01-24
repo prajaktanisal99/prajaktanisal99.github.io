@@ -18,10 +18,11 @@ export const ExperienceList = [
     description:
       "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
     contributions: [
-      "Designed and implemented high-performance backend services using Java and Spring Boot to ensure low-latency, scalable solutions, supporting 1000s of concurrent users.",
-      "Developed a real-time financial data processing system, enhancing data accuracy and processing speed by incorporating Kafka for event streaming, enabling real-time updates and enhancing decision-making.",
-      "Built user-centric dashboards and data visualizations using React.js, reducing latency and improving the user experience for large-scale financial applications.",
-      "Collaborated with cross-functional teams to implement scalable microservices architectures, supporting distributed systems with high throughput and ensuring system reliability at scale.",
+ "Designed and developed a highly interactive, user-centric asset management dashboard using React.js, enhancing user productivity by 40%",
+"Implemented optimization techniques like code-splitting and lazy loading, reducing the initial load time by 50%, improving overall application performance.",
+"Optimized rendering of large datasets by implementing virtualized lists, improving front-end responsiveness for high-trahic operations.",
+"Collaborated with backend teams to implement scalable RESTful APIs, improving data fetching and reducing page load times by 75%.",
+"Utilized Redux for state management to ensure smooth application performance, enhancing the app’s scalability and reducing re-renders.",
     ],
     date: "Jul 2021 - Aug 2023",
     // document: "https://youknowtheending.net/",
