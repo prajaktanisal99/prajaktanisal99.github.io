@@ -41,7 +41,7 @@ export const ProjectList = [
     img: "/nba_image.jpg",
     title: "NBA Position Prediction using MLP Classifier",
     description:
-      "Developed an MLP classifier to predict NBA player positions, achieving 60.23% accuracy on the training set and optimizing performance through feature selection and cross-validation.",
+      "Developed an MLP classifier to predict NBA player positions, achieving significant accuracy on the training set and optimizing performance through feature selection and cross-validation.",
     tech_stack: ["Python", "Pandas", "sklearn"],
     dates: "Aug 2023 - Oct 2023",
     github_url: "https://github.com/prajaktanisal99/nba_stats/blob/main/MLP.py",
@@ -93,6 +93,42 @@ export const ProjectList = [
 
 export const stackList = [
   {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    name: "Java",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    name: "Python",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+    name: "C++",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    name: "JavaScript",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg",
+    name: "Go",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg",
+    name: "Scala",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    name: "Typescript",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    name: "NodeJS",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+    name: "Express.js",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
     name: "HTML",
   },
@@ -101,77 +137,34 @@ export const stackList = [
     name: "CSS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-    name: "JavaScript",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
+
   // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-  //   name: "NextJs",
+  //   image:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grpc/grpc-plain.svg",
+  //   name: "gRPC",
   // },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
-    name: "Typescript",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-    name: "Git",
-  },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-  //   name: "React Native",
-  // },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    name: "NodeJS",
-  },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-  //   name: "Firebase",
-  // },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
-  },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-  //   name: "Flask",
-  // },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
-  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
   },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    name: "MongoDB",
+  },
   // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-  //   name: "Bootstrap",
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+  //   name: "C",
   // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-  //   name: "Material UI",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-  //   name: "Figma",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-  //   name: "TailwindCSS",
-  // },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    name: "Git",
+  },
+  {
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+    name: "Docker",
+  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
