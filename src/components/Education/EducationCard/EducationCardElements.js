@@ -80,8 +80,10 @@ export const DegreeTitle = styled.h4`
   margin-bottom: 5px;
 `;
 
-// College name styling
-export const CollegeName = styled.p`
+export const CollegeName = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.7);
   margin-top: 5px;

@@ -9,6 +9,8 @@ import {
   DegreeTitle,
   DetailsContainer,
 } from "./EducationCardElements";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 function EducationCard() {
   return (
@@ -18,7 +20,16 @@ function EducationCard() {
           <Card>
             <div>
               <DegreeTitle>{list.title}</DegreeTitle>
-              <CollegeName>{list.college}</CollegeName>
+              <CollegeName>
+                <span>{list.college}</span>
+                <span>
+                  {list.transcript && (
+                    <a href={list.transcript} target="_blank">
+                      <FontAwesomeIcon icon={faLink} />
+                    </a>
+                  )}
+                </span>
+              </CollegeName>
               <CourseContainer>
                 {list.courses.map((course, index) => (
                   <CourseCard key={index}>{course}</CourseCard>
