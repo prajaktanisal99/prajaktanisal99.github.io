@@ -3,12 +3,15 @@ import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from "@mui/material/Zoom";
-
 import ScrollAnimation from "react-animate-on-scroll";
+
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText("nisalprajakta99@gmail.com");
+  const [copiedEmail, setCopiedEmail] = useState("");
+
+  const copyToClipboard = (email) => {
+    navigator.clipboard.writeText(email);
+    setCopiedEmail(email);
     setShowTooltip(true);
     setTimeout(() => {
       setShowTooltip(false);
@@ -21,6 +24,55 @@ function Contact() {
         <div className="SectionTitle">Get In Touch</div>
         <ScrollAnimation animateIn="fadeIn">
           <div className="BigCard">
+            {/* First Email */}
+            <Email>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  columnGap: "20px",
+                  rowGap: "10px",
+                  flexWrap: "wrap",
+                  justifyContent: "space-between",
+                }}
+              >
+                <span>pkn4111@mavs.uta.edu</span>
+                <Tooltip
+                  PopperProps={{
+                    disablePortal: true,
+                  }}
+                  open={copiedEmail === "pkn4111@mavs.uta.edu" && showTooltip}
+                  onClose={() => setShowTooltip(false)}
+                  title="Copied!"
+                  TransitionComponent={Zoom}
+                  disableFocusListener
+                  disableHoverListener
+                  disableTouchListener
+                  placement="bottom"
+                >
+                  <IconButton onClick={() => copyToClipboard("pkn4111@mavs.uta.edu")}>
+                    <MdContentCopy
+                      size={25}
+                      style={{ cursor: "pointer", color: "#151418" }}
+                    />
+                  </IconButton>
+                </Tooltip>
+              </div>
+              <a
+                className="btn PrimaryBtn btn-shadow"
+                href="mailto:pkn4111@mavs.uta.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "block",
+                  marginTop: "10px", // Space between email and button
+                }}
+              >
+                Send Email
+              </a>
+            </Email>
+
+            {/* Second Email */}
             <Email>
               <div
                 style={{
@@ -32,12 +84,12 @@ function Contact() {
                   justifyContent: "center",
                 }}
               >
-                <span>nisalprajakta99@gmail.com</span>
+                <span>prajaktanisal1999@gmail.com</span>
                 <Tooltip
                   PopperProps={{
                     disablePortal: true,
                   }}
-                  open={showTooltip}
+                  open={copiedEmail === "prajaktanisal1999@gmail.com" && showTooltip}
                   onClose={() => setShowTooltip(false)}
                   title="Copied!"
                   TransitionComponent={Zoom}
@@ -46,7 +98,7 @@ function Contact() {
                   disableTouchListener
                   placement="bottom"
                 >
-                  <IconButton onClick={copyToClipboard}>
+                  <IconButton onClick={() => copyToClipboard("prajaktanisal1999@gmail.com")}>
                     <MdContentCopy
                       size={25}
                       style={{ cursor: "pointer", color: "#151418" }}
@@ -56,9 +108,13 @@ function Contact() {
               </div>
               <a
                 className="btn PrimaryBtn btn-shadow"
-                href="mailto:nisalprajakta99@gmail.com"
+                href="mailto:prajaktanisal1999@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{
+                  display: "block",
+                  marginTop: "10px", // Space between email and button
+                }}
               >
                 Send Email
               </a>
