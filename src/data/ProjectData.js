@@ -1,6 +1,15 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/chat.png",
+    title: "gRPC ChatHub",
+    description: "Developed a real-time, distributed chat application using gRPC, Protocol Buffers, and Docker, supporting one-to-one and broadcast messaging with Go and Python implementations.",
+    tech_stack: ["Golang", "Protocol Buffers", "Docker", "gRPC"],
+    dates: "Jan 2025 - Feb 2025",
+    demo_url: "",
+    github_url: "https://github.com/prajaktanisal99/chat_grpc",
+  },
+  {
     img: "/dynamic_form.jpg",
     title: "Dynamic JSON-driven Form Generator",
     description:
