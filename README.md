@@ -6,6 +6,7 @@
 👩‍💻 Grad student with 2 years of experience at DWS India (Deutsche Bank Group), actively seeking full-time opportunities starting May 2025.
 
 💡 Currently exploring the fascinating domain of Distributed Systems.
+
 🎯 Interests: Full-Stack Development | Distributed Systems | Machine Learning | Solving Complex Engineering Problems.
 
 Outside of tech & work, I love dancing and traveling! ✈️
